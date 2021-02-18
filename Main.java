@@ -1,4 +1,4 @@
-public class main {
+public class Main {
     public static void main(String[] args) {
         long balance = 100;
         long refill = 1336;
