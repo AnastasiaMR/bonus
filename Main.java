@@ -6,8 +6,8 @@ public class Main {
         if (refill >= 1000)
             bonus = refill / 100;
 
-        long new_balance = balance + bonus + refill;
+        long newBalance = balance + bonus + refill;
 
-        System.out.println("На вашем счету " + new_balance + " рублей");
+        System.out.println("На вашем счету " + newBalance + " рублей");
     }
 }
