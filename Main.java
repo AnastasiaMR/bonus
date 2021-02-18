@@ -3,9 +3,8 @@ public class Main {
         long balance = 100;
         long refill = 1336;
         long bonus = 0;
-        if (refill >= 1000) {
+        if (refill >= 1000)
             bonus = refill / 100;
-        }
 
         long new_balance = balance + bonus + refill;
 
